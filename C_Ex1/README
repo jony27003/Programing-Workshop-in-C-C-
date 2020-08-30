@@ -1,0 +1,15 @@
+c_ex1
+jony27003
+204894281
+######
+
+In this exercise we have implemented the mathematical concept of
+convolution. One of this exercises requirements was to implement it in no more than O(n^2) time,
+and this exercise was indeed implemented in O(n^2) time.
+The trail of thought for implementing this exercise was to first to get familiar
+with working with users input and analyzing them accordingly.
+Then the next challenge was to convert the mathematical language of convolution
+operation to based c language, this was accomplished by implementing the parametrization
+according to this exercise description.
+In order to implement this exercise i used primitive variables
+(such as: int, char, double) and some arrays of different kinds as well.
