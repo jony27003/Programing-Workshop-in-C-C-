@@ -1,0 +1,16 @@
+c_ex3
+jony27003
+204894281
+######
+
+In the first part of this exercise i have created a static library in order to help me
+compute with high precision two well known values in calculus: the Derivative and the Integral.
+These two values are numerically computed in accordance with the given exercise description.
+In the second part of this exercise i have implemented a simple program named "NumericalAnalyzer"
+which uses "infi.c" static library in order to compute the two previous values.
+Most of NumericalAnalyzer.c file is dedicated for validating the users input,
+furthermore, in order to ensure that the users input corresponds with the functions domain
+i have used a global valuable to flag whether or not we are in the given function domain.
+In this exercise there were no run time limitations, and i have not used any
+interesting algorithms.
+
