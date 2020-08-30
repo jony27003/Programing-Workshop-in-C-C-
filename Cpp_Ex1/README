@@ -1,0 +1,15 @@
+cpp_ex1_late
+jony27003
+204894281
+######
+
+In this exercise i have wrote a part of a program which is intended to break RSA encryption.
+This was done by implementing a finite algebraic field class GField and an
+algorithm to extract the prime roots of a given number.
+A short explanation of the implemented classes:
+GField: A class that represents a Galois field.
+GFNumber: A class that represents a number in a a Galois field.
+IntegerFactorization: A class that holds the main function from which the -
+- output desired output of the program is generated.
+The implementation of the classes above is written with accordance to the given API.
+Run time requirements: isPrime -> O(sqrt(n)), this rum time was achieved.
