@@ -1,0 +1,18 @@
+cpp_ex3_late
+jony27003
+204894281
+######
+
+In this exercise i have created a spam detector program that classifies messages that might be
+harmful for the user and lets them know about it. in order to accomplish this, i have
+created and stored a bank of harmful values and there keys in a hashMap,
+and then if a given message has used a sufficient number of harmful values,
+it will be categorized as spam.
+In this exercise i have created 4 classes:
+"HashMap", "HashMapIterator", "SpamDetector" and "OutOfRange".
+HashMap: a generic hashMap.
+HashMapIterator: a HashMap iterator.
+SpamDetector: the spam detector program.
+OutOfRange: a customized exception class.
+i have not used any complex or well known algorithms, and there were no runtime
+demands on any of the requested methods.
