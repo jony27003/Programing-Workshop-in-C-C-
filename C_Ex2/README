@@ -1,0 +1,23 @@
+c_ex2
+jony27003
+204894281
+######
+
+In this exercise I was required to implement a tree data structure (after learning about the mathematical and
+theoretical aspects of it in previous curses) and implement some basic functions for this data structure.
+More specifically I was required to implement the program TreeAnalyzer,
+and its objective is to analyze trees (up to d regular).
+In order to implement this program and all its functions I choose to create 2 structs:
+The first, a Vertex, which is composed of a Key and a pointer to the next Vertex.
+And the second, a Tree of Vertices, which is composed by 4 attributes:
+1. treeStructure -> An array of Vertices to that describes the trees structure.
+2. root -> The root of this tree.
+3. leafs -> An array to represent the leafs of this tree.
+4. totalNumberOfVertices -> The total number of vertices in this tree.
+In order to stick to the required run time demands of some of the programs functions
+i've used the well known BFS algorithm, which of course runs in O(|V|+|E|) time.
+The totalNumberOfVertices wan chosen as an attribute in order to guarantee the O(1) time that was required.
+The root of the tree is accessible in O(1) time, which is of course, better than the required linear time.
+In order to get the span of the tree i've used a well known algorithm:
+First find the most distant vertex (V1) from the root,
+then, the required span is the distance between V1 and the farthest vertex from it.
