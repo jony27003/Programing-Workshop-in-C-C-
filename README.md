@@ -1,1 +1,1 @@
-# Programing-Workshop-in-C-C-
+# Programing Workshop in C & C++
