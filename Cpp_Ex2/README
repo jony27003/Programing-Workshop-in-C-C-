@@ -1,0 +1,22 @@
+cpp_ex2_late
+jony27003
+204894281
+######
+
+In this exercise I have created a modular program that builds and prints fractal trees
+according to their dimension, while exercising:
+The rule of five, the reserved word explicit and inheritance.
+firstly I have created the Fractal class which represents a general fractal.
+And because that there is no real logic behind creating a general fractal,
+i have marked all of its constructors as protected.
+Next came the implementation of the 3 different fractals that were required in the exercises
+description: SierpinskiCarpetFractal, SierpinskiSieveFractal, CantorDustFractal.
+Furthermore while keeping the object oriented programming methodology in mind,
+I have also created a factory class, that is in charge (and only it) of
+creating new and valid fractals.
+Finally i have implemented the fractalDraw class, which is in charge of executing and managing
+the programs input and output.
+this class was designed to be very modular with the ability to support future extensions
+with minimal to none updates to the program.
+In this exercise I have used the following data structures: std::vector, std::set and std::stack.
+there were no runtime demands and i have not used any known or complex algorithms.
